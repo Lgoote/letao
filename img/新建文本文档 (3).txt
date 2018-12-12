@@ -1,0 +1,7 @@
+delete from user where id = 1 ;  删
+insert  into user(name,age) values('旺财',10); 增
+select * from user; 查
+updata user set name = 'jack' where id =1; 改
+
+	连表查询
+select * from 表1 inner join 表2 
